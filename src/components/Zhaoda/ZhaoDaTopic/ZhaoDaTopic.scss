@@ -1,0 +1,112 @@
+.ZhaoDaTopic{
+  margin-bottom: .72rem;
+  .top{
+    background: #fff;
+    position: relative;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .17rem;
+    color: #000;
+    display: flex;
+    justify-content:center;
+    span:nth-child(1){
+      position: absolute;
+      top: .03rem;
+      left: .2rem;
+      width: .1rem;
+      height: .18rem;
+      img{
+        width: .1rem;
+        height: .18rem;
+      }
+    }
+    span:nth-child(2){
+    }
+  }
+  .select{
+    background: #fff;
+    width: 100%;
+    font-size: .16rem;
+    white-space: nowrap;
+    overflow: hidden;
+    ul{
+      white-space: nowrap;
+      width:auto;
+      height: .35rem;
+      box-sizing: border-box;
+      display: inline-block;
+      // background: red;
+      position: relative;
+      .active{
+        border-bottom: .02rem solid #21c6cd;
+        color: #21c6cd;
+      }
+      li{
+        line-height: .33rem;
+        width: .66rem;
+        text-align: center;
+        display:inline-block;
+        color: #333;
+        font-size: .14rem;
+      }
+    }
+  }
+  .content{
+    .itemGroup{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+        align-items:center;
+        a{
+          display: inline-block;
+          width:33%;
+        }
+        a:nth-of-type(3n-1){
+          margin: 0 0.5%;
+        }
+        .item{
+          font-size:0rem;
+          position:relative;
+          margin-bottom:.03rem;
+          img{
+            width:100%;
+          }
+          p:nth-of-type(1){
+            width:100%;
+            text-align:center;
+            font-family:"苹方";
+            font-weight: bold;
+            font-size: .14rem;
+            color: #fff;
+            position: absolute;
+            left: 0;
+            top: 45%;
+
+          }
+          p:nth-of-type(2){
+            width:100%;
+            text-align:center;
+            font-family:"苹方";
+            font-size: .12rem;
+            color: #fff;
+            position:absolute;
+            bottom:10%;
+            left: 0;
+          }
+          span:nth-last-of-type(1){
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+          }
+        }
+    }
+
+  }
+}

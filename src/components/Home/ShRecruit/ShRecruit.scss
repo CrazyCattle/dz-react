@@ -1,0 +1,128 @@
+.ShRecruit{
+
+    .srMain{
+        font-size: 0;
+        .sort{
+            margin: .12rem 0;
+            ul{
+                li{
+                    display:inline-block;
+                    list-style: none;
+                    width:25%;
+                    font-size: .14rem;
+                    color:#B0B0B0;
+                    text-align: center;
+                    position: relative;
+                    img{
+                        height:.08rem;
+                        margin-left: .06rem;
+                    }
+                }
+            }
+        }
+
+        #homeMain{
+            border-top:.01rem solid #EAEAEA;
+            .jobitems{
+                // height: 1.1rem;
+                background:#fff;
+                padding:.15rem 0 0 .13rem;
+                display: flex;
+                box-sizing: border-box;
+                .pics{
+                    display:inline-flex;
+                    width:19%;
+                    height:.6rem;
+                    background:#fff;
+                    justify-content: center;
+                    // align-items: center;
+                    img{
+                        width:.58rem;
+                        border:.01rem solid #EAEAEA;
+                    }
+                }
+
+                .jobintro{
+                    width: 78%;
+                    display:inline-block;
+                    border-bottom: .01rem solid #EAEAEA;
+                    padding-bottom: .14rem;
+                    // padding-right: .04rem;
+                    margin-left: 3%;
+                    h2{
+                        font-family: "苹方";
+                        font-size: .15rem;
+                        font-weight: bold;
+                        color:#333333;
+                        margin:0;
+                        line-height: .24rem;
+                    }
+                    h3{
+                        font-family: "苹方";
+                        font-size: .14rem;
+                        line-height: .19rem;
+                        color:#666666;
+                    }
+
+                    span:nth-of-type(1){
+                        display:block;
+                        em{
+                            font-family: "苹方";
+                            font-size: .13rem;
+                            color:#999999;
+                            font-style: normal;
+                            line-height: .18rem;
+                        }
+                        em:nth-last-of-type(1){
+                            margin-left: .12rem;
+                        }
+                    }
+
+                    span:nth-of-type(2){
+                        width: 100%;
+                        display: inline-block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        em{
+                            font-family: "苹方";
+                            font-size: .13rem;
+                            color:#999999;
+                            font-style: normal;
+                            line-height: .18rem;
+                        }
+                        b{
+                            font-weight: normal;
+                            margin:0 .06rem;
+                            font-size: .14rem;
+                            color:#999999;
+                        }
+                    }
+                }
+
+            }
+            a:nth-last-of-type(1){
+                .jobitems{
+                    border-bottom:.01rem solid #EAEAEA;
+                    .jobintro{
+                        border-bottom:none;
+                    }
+                }
+            }
+            p{
+                font-size: .14rem;
+                color:#B0B0B0;
+                text-align: center;
+                margin-top: .24rem;
+            }
+        }
+    }
+    .fetchmore{
+        font-size: .15rem;
+        color:#ADADAD;
+        text-align: center;
+        margin-top: .12rem;
+        line-height: .32rem;
+        padding: 0 0 .12rem;
+    }
+}

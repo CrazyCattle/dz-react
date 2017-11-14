@@ -1,0 +1,80 @@
+.zhaoDaInvitetoAnswer{
+    .noruser{
+        text-align: center;
+        font-size: 16px;
+    }
+    .answercontent{
+        font-size: 0;
+        background: #fff;
+        margin-top: .18rem;
+        .item{
+            border-bottom: .01rem solid #d8d8d8;
+            padding:.16rem .12rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height:.96rem;
+            box-sizing: border-box;
+            .left{
+                //display: flex;
+                //justify-content: space-around;
+                //align-items: center;
+                width: 70%;
+                .circle{
+                    display:inline-block;
+                    width:.6rem;
+                    height:.6rem;
+                    background:#d8d8d8;
+                    border-radius:50%;
+                    margin-right: .1rem;
+                    float: left;
+                    img{
+                        width: .6rem;
+                        height: .6rem;
+                        border-radius: 50%;
+                    }
+                }
+                p{
+                    height: .6rem;
+                    display: -webkit-flex;
+                    display: -moz-flex;
+                    display: -ms-flex;
+                    display: -o-flex;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    span:nth-of-type(1){
+                        font-weight: bold;
+                        font-size: .14rem;
+                        color:#666666;
+                        height: .22rem;
+                        line-height: .22rem;
+                    }
+                    span:nth-of-type(2){
+                        font-size: .13rem;
+                        color:#ADADAD;
+                        height: .18rem;
+                        line-height: .18rem;
+                        overflow : hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+            }
+            .right{
+                display:inline-block;
+                color:#21c6cd;
+                width:.7rem;
+                height:.25rem;
+                border:.01rem solid #21c6cd;
+                border-radius:.03rem;
+                font-size: .14rem;
+                text-align: center;
+                line-height: .23rem;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

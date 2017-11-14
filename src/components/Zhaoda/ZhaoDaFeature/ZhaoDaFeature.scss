@@ -1,0 +1,60 @@
+.ZhaoDaFeature{
+    background:#ececec;
+    margin-bottom: .72rem;
+    .feature{
+        width:100%;
+        background:#FFFFFF;
+        border-bottom:0.01rem solid #ADADAD;
+        padding:0rem 0.125rem 0.15rem;
+        box-sizing:border-box;
+        position:relative;
+        margin-bottom:0.15rem;
+        .featureImg{
+            margin-bottom:-0.07rem;
+            img{
+                width:100%;
+                margin-top:0.15rem;
+            }
+        }
+        .fTheme{
+            font-family:"苹方";
+            font-weight:bold;
+            font-size:0.14rem;
+            color:#333333;
+            display:flex;
+            justify-content:center;
+            margin-bottom:0.14rem;
+        }
+        .publisher{
+            font-size:0.13rem;
+            color:#333333;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin-bottom:0.14rem;
+            .cicle{
+                display:inline-block;
+                width:0.24rem;
+                height:0.24rem;
+                border-radius:50%;
+                background:#ADADAD;
+                margin-right:0.06rem;
+            }
+            .vip,img{
+                width:0.16rem;
+                height:0.16rem;
+            }
+            .vip{
+                margin-left:0.04rem;
+                display:inline-block;
+            }
+        }
+        p{
+            padding:0 0.12rem;
+            font-size:0.12rem;
+            line-height:0.18rem;
+            text-align:center;
+            color:#ADADAD;
+        }
+    }
+}
